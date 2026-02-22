@@ -6,6 +6,7 @@ require_once __DIR__ . '/includes/header.php';
 <div class="container py-5">
   <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-4">
     <h1 class="section-title mb-0">Courses & Programs</h1>
+    <a href="downloads/prospectus.pdf" class="btn btn-outline-primary"><i class="fa-solid fa-download"></i> Download Prospectus</a>
     <a href="downloads/prospectus.pdf" class="btn btn-outline-primary"><i class="bi bi-download"></i> Download Prospectus</a>
   </div>
   <div class="table-responsive shadow-sm rounded">

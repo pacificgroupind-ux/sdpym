@@ -19,6 +19,10 @@
             <div class="col-md-4">
                 <h6>Follow Us</h6>
                 <div class="d-flex gap-3 fs-4">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
                     <i class="bi bi-facebook"></i>
                     <i class="bi bi-instagram"></i>
                     <i class="bi bi-twitter-x"></i>
