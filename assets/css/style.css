@@ -1,0 +1,20 @@
+:root {
+  --college-blue: #0d47a1;
+  --college-saffron: #ff8f00;
+}
+body { font-family: "Segoe UI", Tahoma, sans-serif; }
+.hero {
+  background: linear-gradient(120deg, rgba(13,71,161,.92), rgba(255,143,0,.78)), url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1350&q=80') center/cover;
+  min-height: 70vh;
+  color: #fff;
+}
+.section-title { border-left: 5px solid var(--college-saffron); padding-left: 12px; }
+.card-hover { transition: transform .2s ease, box-shadow .2s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 .75rem 1rem rgba(0,0,0,.15); }
+.logo-placeholder { border-radius: .3rem; }
+.quick-link { text-decoration: none; }
+.quick-link:hover { color: var(--college-saffron); }
+.table thead { background: #eef5ff; }
+.gallery-img { width: 100%; height: 220px; object-fit: cover; border-radius: .5rem; }
+.animate-up { opacity: 0; transform: translateY(16px); transition: .6s; }
+.animate-up.visible { opacity: 1; transform: translateY(0); }
