@@ -22,6 +22,8 @@ $gallery = db()->query("SELECT image_path, title FROM gallery ORDER BY created_a
       <div class="card bg-light border-0 shadow-sm"><div class="card-body"><h5 class="card-title">Quick Access</h5><div class="d-grid gap-2"><a href="admissions.php" class="btn btn-outline-primary btn-sm">Admissions</a><a href="courses.php" class="btn btn-outline-primary btn-sm">Courses</a><a href="faculty.php" class="btn btn-outline-primary btn-sm">Faculty</a><a href="contact.php" class="btn btn-outline-primary btn-sm">Contact</a></div></div></div>
     </div>
   </div>
+  <h2 class="section-title mb-4">Principal's Welcome</h2>
+  <p>Welcome to Shri ABCD Mahavidyalaya. We are committed to student-centric learning, value-based education, and community impact with NAAC/NIRF-aligned institutional quality practices.</p>
 </section>
 <section class="container py-2">
   <h2 class="section-title mb-4">Highlights & Latest News</h2>
@@ -29,6 +31,7 @@ $gallery = db()->query("SELECT image_path, title FROM gallery ORDER BY created_a
     <?php foreach ($notices as $n): ?>
     <div class="col-md-4 animate-up">
       <div class="card card-hover h-100 shadow-sm">
+      <div class="card card-hover h-100">
         <div class="card-body">
           <small class="text-muted"><?= e($n['notice_date']) ?></small>
           <h5 class="card-title mt-2"><?= e($n['title']) ?></h5>
@@ -40,6 +43,16 @@ $gallery = db()->query("SELECT image_path, title FROM gallery ORDER BY created_a
   </div>
 </section>
 <section class="container py-4">
+<section class="container py-5">
+  <h2 class="section-title mb-4">Quick Links</h2>
+  <div class="row text-center g-3">
+    <div class="col-6 col-md-3"><a class="quick-link" href="admissions.php">Admissions</a></div>
+    <div class="col-6 col-md-3"><a class="quick-link" href="courses.php">Courses</a></div>
+    <div class="col-6 col-md-3"><a class="quick-link" href="contact.php">Contact</a></div>
+    <div class="col-6 col-md-3"><a class="quick-link" href="faculty.php">Faculty</a></div>
+  </div>
+</section>
+<section class="container py-2">
   <h2 class="section-title mb-4">Campus Gallery</h2>
   <div class="row g-3">
     <?php foreach ($gallery as $img): ?>
