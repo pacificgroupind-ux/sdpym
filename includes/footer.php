@@ -23,6 +23,10 @@
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-x-twitter"></i>
                     <i class="fa-brands fa-youtube"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-youtube"></i>
                 </div>
             </div>
         </div>
